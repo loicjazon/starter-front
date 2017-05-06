@@ -1,0 +1,21 @@
+{
+  "name": "starter-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+    "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "author": "Loïc Jazon <contact@loicjazon.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "laravel-mix": "^0.11.4",
+    "slick-carousel": "^1.6.0"
+  },
+  "dependencies": {}
+}
