@@ -7,6 +7,9 @@
 
   <title>Starter Front</title>
 
+  <!-- Thème -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" rel="stylesheet">
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
@@ -19,73 +22,65 @@
       color: #636b6f;
       font-family: 'Raleway', sans-serif;
       font-weight: 100;
-      height: 100vh;
-      margin: 0;
-    }
-
-    section {
-      background-color: antiquewhite;
-      width: 960px;
-      margin: 5px auto;
-      padding: 20px;
-    }
-
-    .full-height {
-      height: 100vh;
-    }
-
-    .flex-center {
-      align-items: center;
-      display: flex;
-      justify-content: center;
-    }
-
-    .position-ref {
-      position: relative;
-    }
-
-    .title {
-      font-size: 64px;
-      font-weight: normal;
-      text-align: center;
-    }
-
-    .m-b-md {
-      margin-bottom: 30px;
     }
   </style>
 </head>
 <body>
-<div class="flex-center position-ref full-height">
+<div id="app">
 
-  <div class="content">
-
-    <h1 class="title m-b-md">
-      Starter Front
-    </h1>
-
-    <section>
-      <div class="carousel carousel-single-item">
-        <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
-        <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
-        <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
-        <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
-        <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
-        <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">Carousel simple item</div>
+          <div class="panel-body">
+            <div class="carousel js-carousel js-carousel-single-item">
+              <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </div>
 
-    <section>
-      <div class="carousel carousel-multiple-items">
-        <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
-        <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
-        <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
-        <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
-        <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
-        <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">Carousel multiple items</div>
+          <div class="panel-body">
+            <div class="carousel js-carousel js-carousel-multiple-items">
+              <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
-
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">Carousel multiple items</div>
+          <div class="panel-body">
+            <div class="carousel js-carousel js-carousel-multiple-items js-carousel-autoplay">
+              <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item carousel__item--important"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="carousel__item"><i class="fa fa-search" aria-hidden="true"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 </div>
